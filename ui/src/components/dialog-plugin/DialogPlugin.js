@@ -176,6 +176,7 @@ export default Vue.extend({
             keyup: evt => {
               // if ENTER key
               if (
+                this.$refs.dialog.noEnterDismiss !== true &&
                 this.okDisabled !== true &&
                 this.prompt.type !== 'textarea' &&
                 isKeyCode(evt, 13) === true
