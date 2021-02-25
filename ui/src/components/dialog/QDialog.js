@@ -48,6 +48,7 @@ export default Vue.extend({
     noEscDismiss: Boolean,
     noBackdropDismiss: Boolean,
     noRouteDismiss: Boolean,
+    noEnterDismiss: Boolean,
     noRefocus: Boolean,
     noFocus: Boolean,
 
